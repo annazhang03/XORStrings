@@ -4,4 +4,4 @@ help:
 	$(info mode argument should be either "human" or "numOut")
 
 run:
-	python3 xor.py $(ARGS)
+	@python3 xor.py $(ARGS)

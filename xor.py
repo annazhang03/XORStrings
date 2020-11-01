@@ -13,10 +13,13 @@ else:
     debug = True
 
 if(debug):
+    print("arguments were entered incorrectly")
     print("mode:"+mode)
     print("key: "+key)
     print("inp: "+inp)
     sys.exit()
+
+
 # wrap key
 l = len(key)
 if l < len(inp):
